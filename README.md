@@ -4,9 +4,7 @@ Business AI Automation · Healthcare Operations · AI Workflow Portfolio
 
 ## Overview
 
-PlanC AI Showcase presents selected public-facing examples of business automation, healthcare operations design, AI workflow architecture, and digital service planning.
-
-This repository is intentionally limited to portfolio-safe materials. Core source code, internal operating rules, proprietary orchestration logic, customer data, and private production repositories are not exposed here.
+PlanC AI Showcase presents selected examples of business automation, healthcare operations design, AI workflow architecture, and digital service planning.
 
 ## What I Do
 
@@ -47,26 +45,9 @@ Structuring multi-step AI workflows where strategy, generation, QA, memory, depl
 ### 4. Digital Product & SaaS Planning
 Turning business ideas into implementable web products with user flows, admin structure, database design, permissions, CTA structure, monetization, and deployment requirements.
 
-## Public Showcase Policy
+## Selected Work
 
-This repository follows a strict separation between public portfolio materials and private intellectual property.
-
-### Public
-- Project summaries
-- Architecture overviews
-- Screenshots and demo links
-- Problem / solution descriptions
-- Selected technology stacks
-- Non-sensitive workflow diagrams
-
-### Private
-- Core proprietary source code
-- Internal AI orchestration rules
-- Prompt systems and operating manuals
-- Customer data
-- Credentials and environment variables
-- Private databases
-- Internal QA and governance logic
+Project case studies, screenshots, demo links, and implementation summaries will be added here as the portfolio is curated.
 
 ## Positioning
 
@@ -78,7 +59,3 @@ I focus on building systems that are practical, operable, reusable, and commerci
 ## Contact / Collaboration
 
 Available for selected consulting, workflow design, AI automation, healthcare operations, digital transformation, and product strategy projects.
-
----
-
-> Note: This repository is a public showcase only. Production repositories and proprietary systems remain private by design.
