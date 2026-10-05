@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PlanC | 현장의 문제를 실제 작동하는 AI 시스템으로</title>
+<meta name="description" content="PlanC는 병원·치과·소상공인·중소기업의 반복업무를 AI 자동화, 업무 시스템, 홈페이지, 맞춤형 AI로 바꾸는 실무형 구축 파트너입니다.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://planc-official.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PlanC | 현장의 문제를 실제 작동하는 AI 시스템으로">
+<meta property="og:description" content="예쁜 화면보다 실제로 돌아가는 시스템. PlanC가 현장 문제를 진단하고 구축·배포·운영까지 연결합니다.">
+<meta property="og:url" content="https://planc-official.vercel.app/">
+<meta property="og:image" content="https://planc-official.vercel.app/og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"PlanC",
+  "url":"https://planc-official.vercel.app/",
+  "description":"AI 업무자동화, 업무 시스템, 홈페이지, 맞춤형 AI 구축",
+  "sameAs":[]
+}
+</script>
+<style>
+:root{--bg:#f5f1e8;--ink:#121212;--muted:#6b685f;--line:#d9d3c6;--card:#fffdf7;--orange:#ff6b2c;--acid:#dfff4f;--dark:#111;--radius:28px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Noto Sans KR","Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(245,241,232,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(18,18,18,.08)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:-.05em;font-size:28px;text-decoration:none}.brand i{color:var(--orange);font-style:normal}.menu{display:flex;gap:24px;align-items:center}.menu a{text-decoration:none;font-weight:700;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 20px;border-radius:999px;background:var(--dark);color:white;text-decoration:none;font-weight:800;border:1px solid var(--dark);transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.ghost{background:transparent;color:var(--ink)}
+.hero{padding:92px 0 56px}.eyebrow{display:inline-flex;gap:8px;align-items:center;font-size:13px;font-weight:800;border:1px solid var(--ink);border-radius:999px;padding:8px 12px}.dot{width:8px;height:8px;background:var(--orange);border-radius:50%}.hero h1{font-size:clamp(48px,8vw,104px);line-height:.95;letter-spacing:-.075em;margin:26px 0 30px;max-width:1050px}.hero h1 em{font-style:normal;color:var(--orange)}.hero p{font-size:clamp(18px,2.2vw,25px);color:#403e38;max-width:760px;margin:0 0 34px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.marquee{margin-top:64px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;overflow:hidden;white-space:nowrap;font-weight:900;letter-spacing:-.03em}.marquee span{display:inline-block;padding-right:48px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}.section{padding:96px 0}.kicker{font-size:14px;font-weight:900;color:var(--orange);text-transform:uppercase;letter-spacing:.08em}.section h2{font-size:clamp(38px,5vw,68px);letter-spacing:-.06em;line-height:1.04;margin:12px 0 38px}.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;min-height:250px;position:relative;overflow:hidden}.card h3{font-size:26px;letter-spacing:-.04em;margin:8px 0 14px}.card p{color:var(--muted);margin:0}.num{font-size:12px;font-weight:900;opacity:.45}.service{grid-column:span 6}.service .icon{font-size:44px;margin-top:34px}.service:nth-child(2){background:var(--dark);color:white}.service:nth-child(2) p{color:#cfcfcf}.service:nth-child(3){background:var(--acid)}.service:nth-child(4){background:#ffd8c6}
+.statement{background:var(--dark);color:white;border-radius:40px;padding:64px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:end}.statement h3{font-size:clamp(38px,5vw,72px);line-height:1.02;letter-spacing:-.06em;margin:0}.statement p{color:#c7c7c7;font-size:18px;margin:0}
+.process{counter-reset:step}.step{grid-column:span 4;background:transparent;border-top:2px solid var(--ink);padding:22px 8px 12px}.step:before{counter-increment:step;content:"0" counter(step);font-size:12px;font-weight:900;color:var(--orange)}.step h3{font-size:24px;margin:34px 0 10px;letter-spacing:-.04em}.step p{color:var(--muted)}
+.fit{grid-column:span 6}.fit.good{background:#111;color:white}.fit.good p{color:#ddd}.fit.bad{background:#fff;border:2px dashed #bbb}.list{display:grid;gap:12px;margin-top:22px}.pill{padding:12px 14px;border-radius:14px;background:rgba(127,127,127,.09);font-weight:700}
+.faq{display:grid;gap:10px}.faq details{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px}.faq summary{cursor:pointer;font-weight:800}.faq p{color:var(--muted)}
+.cta{background:var(--orange);border-radius:40px;padding:64px}.cta h2{margin:0 0 18px;color:#111}.cta p{font-size:19px;max-width:700px}.footer{padding:44px 0 70px;color:var(--muted);font-size:14px}.footerin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:780px){.wrap{width:min(100% - 24px,1180px)}.navin{height:64px}.menu a:not(.btn){display:none}.hero{padding-top:62px}.hero h1{font-size:52px}.section{padding:70px 0}.service,.fit,.step{grid-column:span 12}.statement{grid-template-columns:1fr;padding:34px 24px;border-radius:28px}.cta{padding:38px 24px;border-radius:28px}.card{min-height:220px}.menu .btn{padding:11px 15px;font-size:13px}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#top">Plan<i>C</i></a>
+    <nav class="menu" aria-label="주요 메뉴">
+      <a href="#services">서비스</a><a href="#process">진행방식</a><a href="#fit">적합도</a><a href="#faq">FAQ</a>
+      <a class="btn" href="#contact">프로젝트 상담</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span>AI · AUTOMATION · BUSINESS SYSTEM</div>
+    <h1>현장의 문제를<br><em>실제로 작동하는 시스템</em>으로.</h1>
+    <p>PlanC는 보여주기 위한 AI가 아니라, 반복업무를 줄이고 고객 응대와 운영을 더 매끄럽게 만드는 실무형 시스템을 설계하고 구축합니다.</p>
+    <div class="actions"><a class="btn" href="#contact">무엇부터 바꿀지 상담하기 →</a><a class="btn ghost" href="#services">서비스 보기</a></div>
+    <div class="marquee" aria-label="PlanC 제공 영역"><span>AI 업무자동화 · 홈페이지 · 업무 시스템 · 맞춤형 AI · 콘텐츠 운영 · AI 교육 ·</span><span>AI 업무자동화 · 홈페이지 · 업무 시스템 · 맞춤형 AI · 콘텐츠 운영 · AI 교육 ·</span></div>
+  </div>
+</section>
+
+<section class="section" id="services"><div class="wrap">
+  <div class="kicker">What we build</div><h2>예쁜 화면에서 끝내지 않습니다.<br>업무가 실제로 달라져야 합니다.</h2>
+  <div class="grid">
+    <article class="card service"><div class="num">01</div><div class="icon">↻</div><h3>AI 업무자동화</h3><p>반복 입력, 정리, 문서 작업, 콘텐츠 생산처럼 사람이 매번 해야 하는 흐름을 자동화 가능한 업무부터 단계적으로 바꿉니다.</p></article>
+    <article class="card service"><div class="num">02</div><div class="icon">▦</div><h3>업무 시스템·웹앱</h3><p>현장의 실제 업무 순서를 기준으로 필요한 화면과 기능만 설계해, 직원이 매일 사용할 수 있는 도구로 만듭니다.</p></article>
+    <article class="card service"><div class="num">03</div><div class="icon">◎</div><h3>홈페이지·고객 접점</h3><p>브랜드를 설명하는 데서 끝나지 않고 문의·예약·상담·구매 같은 다음 행동까지 자연스럽게 연결합니다.</p></article>
+    <article class="card service"><div class="num">04</div><div class="icon">✦</div><h3>맞춤형 AI·교육</h3><p>조직의 문서와 업무 맥락을 반영한 AI 활용 체계를 만들고, 팀이 직접 운영할 수 있도록 교육과 적용 기준을 함께 정리합니다.</p></article>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="statement">
+    <h3>도구를 파는 것보다<br>문제를 먼저 봅니다.</h3>
+    <p>“AI를 어디에 써야 하지?”보다 먼저, 지금 직원이 반복하고 있는 일과 고객이 막히는 지점을 찾습니다. 기술은 그 다음입니다.</p>
+  </div>
+</div></section>
+
+<section class="section" id="process"><div class="wrap">
+  <div class="kicker">How we work</div><h2>진단부터 배포까지,<br>한 흐름으로.</h2>
+  <div class="grid process">
+    <div class="step"><h3>현장 진단</h3><p>업무 흐름, 반복 작업, 고객 여정과 병목을 먼저 확인합니다.</p></div>
+    <div class="step"><h3>작은 실행안</h3><p>큰 시스템부터 만들지 않고 효과가 큰 구간을 우선순위로 잡습니다.</p></div>
+    <div class="step"><h3>실제 구축</h3><p>화면·자동화·AI 연결을 구현하고 실제 사용 시나리오로 검증합니다.</p></div>
+    <div class="step"><h3>배포·검수</h3><p>PC와 모바일, 버튼, 링크, 오류, 검색 기본설정을 확인합니다.</p></div>
+    <div class="step"><h3>운영 정리</h3><p>담당자가 이해할 수 있는 기준과 유지 방법을 남깁니다.</p></div>
+    <div class="step"><h3>다음 개선</h3><p>사용 결과를 보고 비용 대비 효과가 큰 다음 개선점을 선택합니다.</p></div>
+  </div>
+</div></section>
+
+<section class="section" id="fit"><div class="wrap">
+  <div class="kicker">Fit check</div><h2>이런 팀과 특히 잘 맞습니다.</h2>
+  <div class="grid">
+    <article class="card fit good"><h3>PlanC가 잘 맞는 경우</h3><div class="list"><div class="pill">직원이 엑셀·메신저·수기 업무를 반복한다</div><div class="pill">홈페이지가 있지만 문의로 잘 이어지지 않는다</div><div class="pill">AI를 샀지만 실제 업무 적용이 막혀 있다</div><div class="pill">작은 팀이라 사람보다 시스템이 먼저 필요하다</div></div></article>
+    <article class="card fit bad"><h3>이런 경우는 먼저 정리가 필요합니다</h3><div class="list"><div class="pill">목표 없이 “AI니까 일단” 만들고 싶다</div><div class="pill">실제 운영 담당자 없이 기능만 많이 원한다</div><div class="pill">가짜 후기·과장 실적·보장 표현을 원한다</div><div class="pill">검증 없이 한 번에 전 업무를 자동화하려 한다</div></div></article>
+  </div>
+</div></section>
+
+<section class="section" id="faq"><div class="wrap">
+  <div class="kicker">FAQ</div><h2>처음 상담할 때<br>많이 묻는 질문.</h2>
+  <div class="faq">
+    <details open><summary>개발 지식이 없어도 진행할 수 있나요?</summary><p>가능합니다. 기술 용어보다 현재 어떤 일을 어떻게 하고 있는지를 기준으로 설명하면 됩니다. 필요한 기술 선택은 PlanC가 구조화합니다.</p></details>
+    <details><summary>처음부터 큰 시스템을 만들어야 하나요?</summary><p>아닙니다. 업무 효과와 위험도를 보고 가장 작게 검증할 수 있는 범위부터 시작하는 방식이 기본입니다.</p></details>
+    <details><summary>홈페이지와 업무자동화를 같이 할 수 있나요?</summary><p>가능합니다. 고객이 보는 홈페이지와 내부에서 사용하는 업무 흐름이 연결되어야 효과가 큰 경우 함께 설계합니다.</p></details>
+    <details><summary>검색엔진 등록도 준비하나요?</summary><p>페이지 제목·설명·구조화데이터·robots.txt·sitemap 등 기본 검색 설정을 준비합니다. 네이버·구글 계정에서 필요한 소유확인은 계정 권한 확인 후 이어서 진행합니다.</p></details>
+  </div>
+</div></section>
+
+<section class="section" id="contact"><div class="wrap">
+  <div class="cta">
+    <div class="kicker" style="color:#111">Start small, make it real</div>
+    <h2>지금 가장 반복되는 일 하나부터<br>바꿔보세요.</h2>
+    <p>상담 링크가 연결되기 전까지는 이 버튼을 가짜 문의 기능처럼 꾸미지 않습니다. 공식 문의 채널이 확정되면 바로 연결합니다.</p>
+    <div class="actions"><a class="btn" href="https://planc-autoworks.netlify.app" rel="noopener">PlanC Autoworks 보기 →</a><a class="btn ghost" href="https://plancschool.netlify.app" rel="noopener">PlanC School 보기</a></div>
+  </div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><strong>PlanC</strong><span>AI · Automation · Business Systems</span><span>© 2026 PlanC. All rights reserved.</span></div></footer>
+</body></html>
